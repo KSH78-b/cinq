@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <main style={{ maxWidth: "34rem", margin: "0 auto", padding: "2.5rem 1.25rem", lineHeight: 1.5 }}>
-      <span style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: ".8rem", letterSpacing: ".08em", textTransform: "uppercase", color: "#c2410c" }}>
+    <main style={{ maxWidth: "34rem", margin: "0 auto", padding: "2.5rem 1.25rem" }}>
+      <span style={{ fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "0.8rem", letterSpacing: "0.08em", textTransform: "uppercase", color: "#c2410c" }}>
         Pour les coiffeurs et barbiers
       </span>
-      <h1 style={{ fontSize: "2.1rem", lineHeight: 1.15, margin: ".5rem 0 1rem" }}>
+      <h1 style={{ fontSize: "2.1rem", lineHeight: 1.15, margin: "0.5rem 0 1rem" }}>
         Plus d’avis Google, sans relancer personne.
       </h1>
       <p style={{ fontSize: "1.1rem" }}>
@@ -16,9 +16,16 @@ export default function Home() {
         <li>Note basse : un message privé, pas un avis public</li>
       </ul>
       <a
-        href=""
-        style={{ display: "block", textAlign: "center", background: "#14213d", color: "#faf7f0", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1.15rem", padding: "1rem", borderRadius: ".5rem", textDecoration: "none", margin: "1.75rem 0 .5rem" }}
+        href="/connexion"
+        style={{ display: "block", textAlign: "center", background: "#14213d", color: "#faf7f0", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1.15rem", padding: "1rem", borderRadius: "0.5rem", textDecoration: "none", margin: "1.75rem 0 0.5rem" }}
       >
         Commencer
       </a>
+      <small style={{ fontFamily: "system-ui, sans-serif", color: "#555" }}>
+        Gratuit pendant 14 jours, sans carte bancaire.
+      </small>
+    </main>
+  );
+}
+
       
