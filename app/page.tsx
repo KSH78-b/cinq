@@ -16,7 +16,7 @@ export default function Home() {
         <li>Note basse : un message privé, pas un avis public</li>
       </ul>
       <a
-        href="#"
+        href=""
         style={{ display: "block", textAlign: "center", background: "#14213d", color: "#faf7f0", fontFamily: "system-ui, sans-serif", fontWeight: 700, fontSize: "1.15rem", padding: "1rem", borderRadius: ".5rem", textDecoration: "none", margin: "1.75rem 0 .5rem" }}
       >
         Commencer
